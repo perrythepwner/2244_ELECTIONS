@@ -8,7 +8,6 @@ def csend(fn: str, *args):
     global rpc_url
     global pk
     global target
-    print(f"cast send {target} '{fn}' {' '.join(args)} --rpc-url {rpc_url} --private-key {pk}")
     system(
         f"cast send {target} '{fn}' {' '.join(args)} --rpc-url {rpc_url} --private-key {pk}"
     )
@@ -16,13 +15,11 @@ def csend(fn: str, *args):
 
 
 if __name__ == "__main__":
-
     baseUrl = "http://localhost:1337"
     if len(sys.argv) > 2:
         baseUrl = sys.argv[1]
 
     d = get(baseUrl + "/connection_info").json()
-    print(d)
     rpc_url = f"{baseUrl}/rpc"
     pk = d['PrivateKey']
     target = d['TargetAddress']
