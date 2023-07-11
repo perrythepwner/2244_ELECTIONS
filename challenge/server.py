@@ -26,7 +26,7 @@ CORS(app)
 
 HTTP_PORT = int(os.getenv("HTTP_PORT", "1337"))
 
-FLAG = os.getenv("FLAG", "HTB{g0t_y0u2_f1r5t_b100d}")
+FLAG = os.getenv("FLAG", "HTB{n0th1ng_1s_h1dd3n_1n_th3_bl0ckch41n}")
 
 node_info = dict()
 

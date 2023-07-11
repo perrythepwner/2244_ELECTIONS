@@ -14,9 +14,11 @@ Category: <font color=orange>Misc / Blockchain</font>
 ## Description
 
 ```
-It's the year 2244 and it's Elections time between United Nations of Zenium (UNZ) and Board of Arodor (BoA) to establish the new world order. You, a skilled hacker aligned with the United Nations of Zenium, suspected the presence of a well-concealed backdoor in the e-voting system that could manipulate the outcome of the elections.
+It's the year 2244 and it's Elections time between United Nations of Zenium (UNZ) and Board of Arodor (BoA) to establish the new world order.
+You, a skilled hacker aligned with the United Nations of Zenium, suspected the presence of a well-concealed backdoor in the e-voting system that could manipulate the outcome of the elections.
 The source code is not public, but nothing is secret on the block...
 ```
+
 ## Skills Required
 
 - EVM basics.
@@ -126,7 +128,7 @@ Save it in env var.
 
 Now we have the compiled bytecode.
 1) We can try to use a decompiler, which could give us inaccurate results but a good overview.
-2) Alternatively we can plot the Control Flow Graph (CFG) of the opcodes and analyze it to have a total and certain understanding of the smart contract flow, with the help of https://www.evm.codes if needed. (who needs contract code when we have bytecode? :)) \
+2) Alternatively we can plot the Control Flow Graph (CFG) of the opcodes and analyze it to have a total and certain understanding of the smart contract flow, with the help of https://www.evm.codes if needed. (who needs contract code when we have bytecode? :))
 
 Players will tend to go towards the first option, as it is more immediate and simple.
 So let's look for the decompiler option first.
