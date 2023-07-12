@@ -120,7 +120,7 @@ body {
 }
 
 @keyframes glitch {
-
+	// Copyright (c) 2023 Zach  (https://codepen.io/hirodashi/pen/YzGBYBY)
 	0%,
 	5% {
 		transform: translate(0, 0);
@@ -263,6 +263,8 @@ body {
 }
 
 /* Voting popup */
+// Copyright (c) 2023 Nacho Toledo (https://codepen.io/iign/pen/YzVzVMG)
+// Fork of an original work CSS Window / Modal  (https://codepen.io/iign/pen/YzVzVMG)
 @mixin a11y-visually-hidden {
 	position: absolute !important;
 	clip: rect(1px, 1px, 1px, 1px);
